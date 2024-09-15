@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><University>
+    
+    
+    
+<Student ID="20200344">
+        <FirstName>omar</FirstName>
+        <LastName>Elsherif</LastName>
+        <Gender>Male</Gender>
+        <GPA>3</GPA>
+        <Level>3</Level>
+        <Address>giza</Address>
+    </Student><Student ID="20201154">
+        <FirstName>ali</FirstName>
+        <LastName/>
+        <Gender>Male</Gender>
+        <GPA/>
+        <Level/>
+        <Address/>
+    </Student><Student ID="20200115">
+        <FirstName>ali</FirstName>
+        <LastName>omar</LastName>
+        <Gender>Male</Gender>
+        <GPA>4</GPA>
+        <Level>4</Level>
+        <Address>cairo</Address>
+    </Student></University>

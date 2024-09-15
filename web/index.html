@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Main Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #333;
+            color: #fff;
+        }
+
+        #menu-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #menu-container h2 {
+            margin: 0 0 20px;
+        }
+
+        #menu-container a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        #menu-container a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu-container">
+        <h2>Main Menu</h2>
+        <a href="addStudent.jsp">Add Student</a>
+        <a href="searchByID.jsp">Search by ID</a>
+                
+
+        <a href="searchByFirstName.jsp">Search by First Name</a>
+        <a href="searchByLastName.jsp">Search by Last Name</a>
+
+        <a href="searchByGPA.jsp">Search by GPA</a>
+        <a href="searchByAddress.jsp">Search by address</a>
+                
+        <a href="searchByLevel.jsp">Search by level</a>
+        <a href="searchByGender.jsp">Search by gender</a>
+
+
+
+        <a href="deleteARecord.jsp">Delete a Record</a>
+        <a href="sortXML.jsp">sort the XML file</a>
+        <a href="handleUpdateStudent.jsp">update student</a>
+        
+        <a href="#">
+           <form action="ShowAllServlet" method="post">
+               <input type="submit" value="Show All Students">
+           </form>
+        </a>
+    </div>
+</body>
+</html>
